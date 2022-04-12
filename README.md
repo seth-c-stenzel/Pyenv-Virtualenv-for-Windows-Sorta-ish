@@ -14,9 +14,10 @@ python -m pip install virtualenv
 python -m venv env
 ```
 
-It does some checks to detect older python 2 versions as well and works with 2.7.
+The way this would work with a newly installed version of python installed with pyenv, is that it would activate/shim that version with a pyenv shell call, and then install virtualenv for python 2.7, or use venv for 3 to create an env.
+
+It does some checks to detect older python 2 versions or at least worked with 2.7. It does install virtualenv for whatever 2.7 version you are creating from.
 I have a feeling that this requires at least python 3.3 also, but I don't have time to test this.
-I have a couple legacy python 2.7 projects that I did test this with and it works for me.
 Any of my python 3.6+ projects have worked as well.
 
 # Installation
@@ -46,3 +47,6 @@ Usage for pyenv virtualenv:
 
 # Bugs
 This has not been well tested, and there may be bugs. This works for my on my windows 10 pro system. You are welcome to play with it, sub pull reqs, etc. Feel free to fix anything you'd like. It is all done in batch which I hate. But they only other option was vbs, and sadly I know more batch than vbs.
+
+# Issues
+If you have an issue with the script, I'll try and help, but with a day job and 6 kids, my responses may be slow. 
