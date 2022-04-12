@@ -1,4 +1,4 @@
-# Pyenv Virtualenv (Sorta'ish)
+# Pyenv Virtualenv for Windows (Sorta'ish)
 
 This is an attempt to bring virtual environment usage to windows in a similar way that pyenv-viertualenv for linux and mac works ( or how I think it should work)
 
@@ -24,6 +24,24 @@ Simply drop the `pyenv-virtualenv.bat` file into your `C:\Users\<user>\.pyenv\py
 # Usage
 Pretty strait forward, you can create env's either from a version, or from the current shimmed version, and either in the pyenv versions directory, or the current directory with the `-d` argument.
 
+```
+>pyenv virtualenv
+
+Usage for pyenv virtualenv:
+   virtualenv <env_name>                Creates env from current env in pyenv versions directory       
+   virtualenv <env_name> -d             Creates env from current env in current working directory      
+   virtualenv <pyenv_version> <env>     Creates env from specified version in pyenv versions directory 
+   virtualenv <pyenv_version> <env> -d  Creates env from specified version in current working directory
+
+
+>pyenv versions   
+  2.7.18
+  3.10.0b3
+* 3.10.0b3-system (set by C:\Users\*****\.pyenv\pyenv-win\version)
+  3.11.0a7
+
+>pyenv virtualenv 3.10.0b3 env -d
+```
 
 # Bugs
 This has not been well tested, and there may be bugs. This works for my on my windows 10 pro system. You are welcome to play with it, sub pull reqs, etc. Feel free to fix anything you'd like. It is all done in batch which I hate. But they only other option was vbs, and sadly I know more batch than vbs.
