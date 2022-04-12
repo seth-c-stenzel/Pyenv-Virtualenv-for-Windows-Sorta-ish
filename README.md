@@ -44,7 +44,7 @@ Usage for pyenv virtualenv:
 ```
 
 # Bugs
-This has not been well tested, and there may be bugs. This works for my on my windows 10 pro system. You are welcome to play with it, sub pull reqs, etc. Feel free to fix anything you'd like. It is all done in batch which I hate. But they only other option was vbs, and sadly I know more batch than vbs.
+This has not been well tested, and there may be bugs. This works for my on my windows 10 pro system. You are welcome to play with it, sub pull reqs, etc. Feel free to fix anything you'd like. It is all done in batch which I hate. But the only other option was vbs, and I know more batch than vbs.
 
 # Issues
 If you have an issue with the script, I'll try and help, but with a day job and 6 kids, my responses may be slow. 
