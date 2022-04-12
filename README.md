@@ -52,4 +52,4 @@ This has not been well tested, and there may be bugs. This works for my on my wi
 If you have an issue with the script, I'll try and help, but with a day job and 6 kids, my responses may be slow. 
 
 # To the Pyenv folks...
-Hey I wish I had time to do a real pull request and learn pyenv's structure, but I just don't have time, and threw this together. If it is at all usefule please take it and make it something offically supported. As an aside, I think this is also how creating envs should work on the nix and mac versions :)
+Hey I wish I had time to do a real pull request and learn pyenv's structure, but I just don't have time, and threw this together. If it is at all useful please take it and make it something offically supported. As an aside, I think this is also how creating envs should work on the nix and mac versions :)
