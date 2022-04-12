@@ -14,11 +14,9 @@ python -m pip install virtualenv
 python -m venv env
 ```
 
-The way this would work with a newly installed version of python installed with pyenv, is that it would activate/shim that version with a pyenv shell call, and then install virtualenv for python 2.7, or use venv for 3 to create an env.
+The way this would work with a newly installed version of python installed with pyenv, is that it would activate/shim that version with a pyenv shell <version>, and then install virtualenv/venv and call it to create an env.
 
-It does some checks to detect older python 2 versions or at least worked with 2.7. It does install virtualenv for whatever 2.7 version you are creating from.
-I have a feeling that this requires at least python 3.3 also, but I don't have time to test this.
-Any of my python 3.6+ projects have worked as well.
+My python 3.6+ projects have been tested, and a 2.7 project. I have not tested with python 2 before 2.7, or python 3 before 3.6.
 
 # Installation
 Simply drop the `pyenv-virtualenv.bat` file into your `C:\Users\<user>\.pyenv\pyenv-win\libexec\` directory (or where ever you installed pyenv.)
