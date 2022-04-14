@@ -57,3 +57,5 @@ Hey, I wish I had time to make an actual pull request and learn pyenv's structur
 I will probably keep trying to add more of the nix/macos virtual env features to this over time, such as activating the envs after and some of its other features. One thing that I like better about my scirpt is that it assumes the user may want to create a new env in the pyenv versions directory or a current project directory.
 
 Updates will sure to be slow as batch is kinda annoying to do things in, and I don't feel like using vbs right now either. Help on this front is welcome, and if gets to a polished point, maybe we can move things over to the official repo.
+
+It probably should be redone with vbs at least to be more like the official repo, and because vbs is way easier than batch I think, but I already know some batch, and I don't know vbs, and don't feel like messing with it right now as I'm trying to pickup Rust already.
