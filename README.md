@@ -1,8 +1,8 @@
 # Pyenv Virtualenv for Windows (Sorta'ish)
 
-This addon is an attempt to bring pyenv virtual environment features to windows similarly to pyenv-virtualenv for linux and mac do.
-This addon is not associated with the official project, and I feel they would implement this solution differently.
-This drop-in addon to pyenv essentially automates virtual env creation with some sugar added.
+This addon is an attempt to bring pyenv virtual environment features to windows similarly to pyenv-virtualenv for linux and mac.
+This addon is not associated with the official project, and I feel they would implement this solution VERY differently.
+This drop-in addon to pyenv essentially automates virtual env creation with checks and cleanup added.
 
 The script automates the following:
 ```
@@ -11,14 +11,15 @@ python -m pip install virtualenv
 python -m venv env
 ```
 
-How this would work with a newly installed version of python installed with pyenv, is activate/shim that version with `pyenv shell`, and then install virtualenv/venv and call it to create an env.
+How this would work with a newly installed version of python installed with pyenv, is the desired shimmed version is activated with `pyenv shell`, and then virtualenv/venv is installed and used to create a new env.
+
 My python 3.6+ projects have been tested, and a single 2.7 project. I have not tested with python 2 before 2.7, or python 3 before 3.6.
 
 # Installation
 Drop the pyenv-virtualenv.bat file into your `C:\Users\<user>\.pyenv\pyenv-win\libexec\` directory (wherever you installed pyenv.)
 
 # Usage
-Pretty straightforward, you can create env's either from a version or from the current shimmed version, and either in the pyenv versions directory or the current directory with the -d argument.
+Pretty straightforward, you can create env's either from a selected version or from the current shimmed version, and either in the pyenv `versions` directory or the current working directory with the `-d` argument.
 
 ```
 >pyenv virtualenv
