@@ -1,7 +1,7 @@
 # Pyenv Virtualenv for Windows (Sorta'ish)
 
 ## Intro
-I use pyenv on windows to manage multiple versions of python, and like the simplicity it offers. I started using it after using it at a previous job but on linux / mac. For linux and mac there is an addon for pyenv which allows you to create virtual envs fairly easy as well as a few other things. I really missed that feature bein gable to quickly create a new env from a current shimmed python version. I figured a version for windows would come eventually but this week decided if I could make something that would get me most of the way there myself.
+I use pyenv on windows to manage multiple versions of python, and like the simplicity it offers. I started using it after using it at a previous job but on linux / mac. For linux and mac there is an addon for pyenv which allows you to create virtual envs fairly easy as well as a few other things. I really missed that feature of being able to quickly create a new env from a current shimmed python version on windows. I figured a version for windows would come eventually, but hasn't yet, and so this week decided if I could make something that would get me most of the way there myself in a day (which I did), it would be worth it.
 
 ## What this is
 This addon is an attempt to bring pyenv virtual environment features to windows similarly to pyenv-virtualenv for linux and mac.
@@ -58,4 +58,4 @@ I will probably keep trying to add more of the nix/macos virtual env features to
 
 Updates will sure to be slow as batch is kinda annoying to do things in, and I don't feel like using vbs right now either. Help on this front is welcome, and if gets to a polished point, maybe we can move things over to the official repo.
 
-It probably should be redone with vbs at least to be more like the official repo, and because vbs is way easier than batch I think, but I already knew some batch, and I don't know vbs, and don't feel like messing with learning it right now as I'm trying to pickup Rust already.
+It probably should be redone with vbs or maybe ps to be more like the official repo. I know vbs / ps is way easier than batch, but I already knew some batch, and got too far in before thinking maybe batch was not the way to go, plus I don't know vbs, and don't feel like learning it right now as I'm trying to pickup Rust already.
