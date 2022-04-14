@@ -58,4 +58,4 @@ I will probably keep trying to add more of the nix/macos virtual env features to
 
 Updates will sure to be slow as batch is kinda annoying to do things in, and I don't feel like using vbs right now either. Help on this front is welcome, and if gets to a polished point, maybe we can move things over to the official repo.
 
-It probably should be redone with vbs at least to be more like the official repo, and because vbs is way easier than batch I think, but I already know some batch, and I don't know vbs, and don't feel like messing with it right now as I'm trying to pickup Rust already.
+It probably should be redone with vbs at least to be more like the official repo, and because vbs is way easier than batch I think, but I already knew some batch, and I don't know vbs, and don't feel like messing with learning it right now as I'm trying to pickup Rust already.
