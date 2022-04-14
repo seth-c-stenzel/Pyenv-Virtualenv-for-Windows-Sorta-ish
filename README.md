@@ -54,7 +54,7 @@ If you have an issue with the script, I'll try and help, but my responses may be
 Hey, I wish I had time to make an actual pull request and learn pyenv's structure, but I don't have time, and I threw this together. Please take it and make it something officially supported if it is helpful. As an aside, I think this is also how creating envs should work on the nix and mac versions :)
 
 ## The future
-I will probably keep trying to add more of the nix/macos virtual env features to this over time, such as activating the envs after and some of its other features. One thing that I like better about my scirpt is that it assumes the user may want to create a new env in the pyenv versions directory or a current project directory.
+I will probably keep trying to add more of the nix/macos virtual env features to this over time, such as activating the envs after and some of its other features. One thing that I like better about my script is that it assumes the user may want to create a new env in the pyenv versions directory OR the current project directory.
 
 Updates will sure to be slow as batch is kinda annoying to do things in, and I don't feel like using vbs right now either. Help on this front is welcome, and if gets to a polished point, maybe we can move things over to the official repo.
 
